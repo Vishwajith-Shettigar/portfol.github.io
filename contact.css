@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #4a195d;
+}
+
+@media only screen and (max-width:590px)
+{
+.contactme
+{
+    padding-top: 20%;
+}
+    
+}

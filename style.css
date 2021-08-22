@@ -1,0 +1,901 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+
+#menu-bar{
+  display: none;
+}
+.header {
+  position: sticky;
+  /* overflow: hidden; */
+  /* border: 2px solid black; */
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+  background-color: rgb(30, 30, 82);
+  height: 9%;
+}
+
+.options {
+  display: flex;
+  list-style: none;
+  padding-left: 11%;
+}
+
+.list {
+  padding: 1.5%;
+  /* text-align: center; */
+  /* padding-left: 2%; */
+}
+
+.list a {
+  text-decoration: none;
+  color: rgb(246, 238, 238);
+  font-size: x-large;
+}
+
+.list a:hover {
+  color: aliceblue;
+  text-shadow: 2px 2px #031cff;
+  text-decoration: none;
+  font-size: large;
+}
+
+.options2 {
+  width: 50%;
+  padding-left: 11%;
+  position: absolute;
+  right: -19%;
+  display: flex;
+}
+
+.list2 {
+  margin-right: 1%;
+  margin-top: 1%;
+  padding: 1.5%;
+
+  list-style: none;
+}
+
+.list2 a {
+  text-decoration: none;
+  color: black;
+  font-size: x-large;
+  padding: 2px;
+}
+
+.list2 a:hover {
+  color: aliceblue;
+  text-shadow: 2px 2px #031cff;
+  text-decoration: none;
+}
+
+button {
+  padding: 3px;
+  border: 2px solid rgb(112, 112, 168);
+  background-color: rgb(240, 19, 203);
+  border-radius: 10px;
+}
+
+button img {
+  width: 24px;
+}
+
+button img:hover {
+  width: 34px;
+}
+
+button a {
+  padding-left: 3px;
+}
+
+.main {
+  margin-top: -5%;
+}
+
+#intro {
+  /* border: 2px solid black;  */
+  width: wv;
+  height: 100%;
+  padding: 6.9%;
+  display: flex;
+  background-color: rgb(37, 37, 102);
+}
+
+#skills {
+  width: wv;
+  margin-top: -2%;
+  border: 2px solid black;
+}
+
+/* #others
+{
+    padding: 11.7%;
+    border: 2px solid black;
+} */
+
+#name1 {
+  text-decoration: underline;
+  margin-top: 19px;
+  margin-left: 111px;
+  color: #ff01c0;
+  text-shadow: 3px 3px #131314;
+}
+
+#name2 {
+  text-decoration: underline;
+
+  margin-top: 119px;
+  color: rgb(236, 161, 40);
+  text-shadow: 3px 3px #131314;
+}
+
+#name3 {
+  text-decoration: underline;
+
+  margin-top: 189px;
+  color: rgb(10, 226, 28);
+  text-shadow: 3px 3px #131314;
+  transition-property: all 2ms;
+  /* transition-timing-function:ease-out ; */
+  transition-delay: 0.4s;
+}
+
+#name3:hover {
+  transform: rotate(290deg);
+  /* transform: rotate3d(290deg); */
+}
+.name {
+  /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif */
+  font-family: "Rampart One", cursive;
+  /* font-family: 'Roboto Slab', serif; */
+  font-size: 60px;
+}
+
+#skills {
+  padding-bottom: 13px;
+  background-color: #8f92ac;
+  margin-top: -4%;
+}
+#skills h1 {
+  padding-top: 9px;
+  margin-left: 46%;
+  text-decoration: underline;
+  text-shadow: 2px 1px rgb(59, 54, 54);
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.skillsset {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.sk {
+  text-align: center;
+  display: inline;
+  border: 2px solid black;
+  margin: 2px;
+  padding: 9px;
+  background-color: rgb(30, 30, 82);
+  border-radius: 22px;
+  margin: 9px;
+}
+.sk img {
+  border-radius: 22px;
+}
+
+.sk h2 {
+  color: aliceblue;
+}
+
+.sk:hover {
+  padding: 20px;
+  box-shadow: 21px 14px 19px 4px #57575754;
+}
+
+/* projects section */
+
+#projects {
+  width: wv;
+  background-color: #f11616;
+}
+#Projects h1 {
+  margin-left: 45%;
+  text-decoration: solid;
+  text-shadow: 2px 1px rgb(59, 54, 54);
+}
+
+.sk2 {
+  border: 2px solid rgb(216, 208, 208);
+  display: flex;
+  padding: 30px;
+  border-radius: 12px;
+  margin: 33px;
+  background-color: #f8f1f1;
+  box-shadow: 21px 14px 19px 4px #57575754;
+}
+
+.inner {
+  margin-left: 25%;
+  width: 100%;
+}
+
+.sk2 img {
+  /* border: 2px solid rgb(26, 26, 25); */
+  border-radius: 113px;
+}
+.inner h2 {
+  padding: 1px 3px;
+  text-decoration: underline;
+}
+
+.inner p {
+  font-size: 22px;
+  padding-left: 10px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#linkedin {
+  border: 2px solid black;
+  margin: 0% 1%;
+  padding: 22px;
+  box-shadow: 2px 22px 22px 2px rgb(75, 78, 75);
+  border-radius: 22px;
+
+  margin-right: 50%;
+  padding-bottom: 7%;
+  text-align: center;
+  background-color: #f8f8f8;
+}
+#linkedin img {
+  width: 40%;
+}
+
+#mailme {
+  border: 2px solid black;
+  margin: 0% 1%;
+  padding: 22px;
+  box-shadow: 2px 22px 22px 2px rgb(108, 138, 108);
+  border-radius: 22px;
+
+  margin-left: 50%;
+  padding-bottom: 7%;
+  text-align: center;
+  background-color: #f8f8f8;
+  margin-bottom: 0%;
+}
+
+#mailme img {
+  width: 40%;
+  padding: 0%;
+}
+
+.contactme {
+  background-color: #4a195d;
+  border-radius: 9px;
+}
+
+@media only screen and (max-width: 1690px) {
+  .options2 {
+    width: 50%;
+    padding-left: 11%;
+    position: absolute;
+    right: -1%;
+
+    display: flex;
+    margin-top: -0.5%;
+  }
+}
+
+@media only screen and (max-width: 1290px) {
+  .options2 {
+    width: 50%;
+    padding-left: 11%;
+    position: absolute;
+    right: 2%;
+    display: flex;
+    margin-top: -0.5%;
+  }
+
+  .main {
+    margin-top: -6%;
+  }
+
+  #skills {
+    padding-bottom: 13px;
+    background-color: #8f92ac;
+    margin-top: -7%;
+  }
+  #skills h1 {
+    padding-top: 9px;
+    margin-left: 46%;
+    text-decoration: underline;
+    text-shadow: 2px 1px rgb(59, 54, 54);
+
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  .skillsset {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .sk {
+    text-align: center;
+    display: inline;
+    border: 2px solid black;
+
+    padding: 13px;
+    background-color: rgb(30, 30, 82);
+    border-radius: 22px;
+    margin: 1px;
+  }
+  .sk img {
+    border-radius: 22px;
+    width: 80%;
+  }
+
+  .sk h2 {
+    color: aliceblue;
+    font-size: x-large;
+  }
+
+  .sk:hover {
+    padding: 50px;
+    box-shadow: 21px 14px 19px 4px #57575754;
+  }
+
+  .options {
+    display: flex;
+    list-style: none;
+    padding-left: 1%;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  #skills {
+    padding-bottom: 13px;
+    background-color: #8f92ac;
+    margin-top: -9%;
+  }
+
+  .options {
+    display: flex;
+    list-style: none;
+    padding-left: 0%;
+  }
+
+  .options2 {
+    width: 50%;
+    padding-left: 11%;
+    position: absolute;
+    right: 1%;
+    display: flex;
+    margin-top: -0.5%;
+  }
+}
+
+@media only screen and (max-width: 977px) {
+
+
+
+
+  .header
+  {
+    width: 103.9vw;
+  }
+.main{
+  width: 103.9vw;
+ 
+}
+
+#intro{
+  
+}
+
+#skills
+{
+  width: 103.5.1vw;
+  
+}
+
+
+  .options2 {
+    width: 50%;
+    padding-left: 7px;
+    position: absolute;
+    right: 1%;
+    display: flex;
+    margin-top: -0.5%;
+  }
+
+  #skills {
+    padding-bottom: 13px;
+    background-color: #8f92ac;
+    margin-top: 0%;
+  }
+
+  .options2 {
+    width: 50%;
+    padding-left: 11%;
+    position: absolute;
+    right: -3%;
+    display: flex;
+    margin-top: -0.5%;
+  }
+
+  .list2 {
+    margin-right: 1%;
+    margin-top: 2%;
+    padding: 0.5%;
+
+    list-style: none;
+  }
+
+  .list2 a {
+    text-decoration: none;
+    color: black;
+
+    padding: 1px;
+    font-size: 19px;
+  }
+
+  .list2 a:hover {
+    color: aliceblue;
+    text-shadow: 2px 2px #031cff;
+    text-decoration: none;
+  }
+
+  #skills {
+    padding-bottom: 13px;
+    background-color: #8f92ac;
+    margin-top: -4%;
+  }
+  #skills h1 {
+    padding-top: 9px;
+    margin-left: 46%;
+    text-decoration: underline;
+    text-shadow: 2px 1px rgb(59, 54, 54);
+
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  .skillsset {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  .sk {
+    text-align: center;
+    display: inline;
+    border: 2px solid black;
+    margin: 2px;
+    padding: 9px;
+    background-color: rgb(30, 30, 82);
+    border-radius: 22px;
+    margin: 9px;
+  }
+  .sk img {
+    border-radius: 22px;
+    width: 91%;
+  }
+
+  .sk h2 {
+    color: aliceblue;
+    font-size: larger;
+  }
+
+  .sk:hover {
+    padding: 30px;
+    box-shadow: 21px 14px 19px 4px #57575754;
+  }
+
+  #skills{
+margin-top: -10%;
+  }
+}
+
+@media only screen and (max-width: 846px) {
+
+
+
+  #skills {
+    padding-bottom: 13px;
+    background-color: #8f92ac;
+    margin-top: -9%;
+  }
+
+  button {
+    padding: 3px;
+    border: 2px solid rgb(112, 112, 168);
+    background-color: rgb(240, 19, 203);
+    border-radius: 10px;
+  }
+
+  button img {
+    width: 20px;
+  }
+
+  button img:hover {
+    width: 34px;
+  }
+
+  button a {
+    padding-left: 3px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+ 
+  /* .header
+  {
+    width: 103.9vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    overscroll-behavior-block: hidden;
+  }
+.main{
+  width: 103.9vw;
+} */
+ 
+ 
+ 
+ 
+  button {
+
+
+    padding: 1px;
+    border: 2px solid rgb(112, 112, 168);
+    background-color: rgb(240, 19, 203);
+    border-radius: 10px;
+  }
+
+  button img {
+    width: 20px;
+  }
+
+  button img:hover {
+    width: 34px;
+  }
+
+  button a {
+    padding-left: 3px;
+  }
+
+  .list a {
+    text-decoration: none;
+    color: rgb(246, 238, 238);
+    font-size: larger;
+  }
+
+  #skills {
+    padding-bottom: 13px;
+    background-color: #8f92ac;
+    margin-top: -8%;
+    width: 99.5%;
+  }
+  #skills h1 {
+    padding-top: 9px;
+    margin-left: 46%;
+    text-decoration: underline;
+    text-shadow: 2px 1px rgb(59, 54, 54);
+
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  .skillsset {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sk {
+    text-align: center;
+    display: inline;
+    border: 2px solid black;
+    margin: 2px;
+    padding: 9px;
+    background-color: rgb(30, 30, 82);
+    border-radius: 22px;
+    margin: 9px;
+  }
+  .sk img {
+    border-radius: 22px;
+    width: 84%;
+  }
+
+  .sk h2 {
+    color: aliceblue;
+    font-size: larger;
+  }
+
+  .sk:hover {
+    padding: 25px;
+    box-shadow: 21px 14px 19px 4px #2c2b2b54;
+  }
+
+  .options2 {
+    right: -9px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+
+
+
+
+
+  .header
+  {
+    width: 108.9vw;
+  }
+.main{
+  width: 108.9vw;
+ 
+}
+
+#intro{
+  
+}
+
+#skills
+{
+  width: 103.5.1vw;
+  
+}
+
+  .name {
+    font-size: 350%;
+    margin-right: -19%;
+  }
+
+  .options2 {
+    right: -19px;
+    padding-left: 1px;
+  }
+
+  .options {
+    margin-left: 2px;
+  }
+
+  .list2 {
+    margin-right: 1%;
+    margin-top: 2%;
+    padding: 0.4%;
+
+    list-style: none;
+  }
+
+  .list2 a {
+    text-decoration: none;
+    color: black;
+
+    padding: 1px;
+    font-size: 11px;
+  }
+
+  .list2 a:hover {
+    color: aliceblue;
+    text-shadow: 2px 2px #031cff;
+    text-decoration: none;
+  }
+
+  button img:hover {
+    width: 24px;
+  }
+
+
+
+  .sk {
+    text-align: center;
+    display: inline;
+    border: 2px solid black;
+    margin: 2px;
+    padding: 2px;
+    padding-bottom: 15px;
+    background-color: rgb(30, 30, 82);
+    border-radius: 22px;
+    margin: 7px;
+  }
+  .sk img {
+    border-radius: 22px;
+    width: 74%;
+  }
+
+  .sk h2 {
+    color: aliceblue;
+    font-size: larger;
+  }
+
+  .sk:hover {
+    padding: 20px;
+    box-shadow: 21px 14px 19px 4px #2c2b2b54;
+  }
+
+
+#intro{
+    margin-top: -8%;
+    width:auto;
+   
+}
+
+
+
+
+
+
+
+
+
+  #projects {
+    width: wv;
+  }
+  #Projects h1 {
+    margin-left: 35%;
+    text-decoration: solid;
+    text-shadow: 2px 1px rgb(59, 54, 54);
+  }
+  
+  .sk2 {
+    border: 2px solid rgb(216, 208, 208);
+    display: flex;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 33px;
+    background-color: #f8f1f1;
+    box-shadow: 21px 14px 19px 4px #57575754;
+  }
+  
+  .inner {
+    margin-left: 10%;
+    width: 100%;
+  }
+  
+  .sk2 img {
+    /* border: 2px solid rgb(26, 26, 25); */
+    border-radius: 16px;
+    width: 45%;
+  }
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width:588px)
+{
+
+
+
+#intro{
+  
+  margin-top: -11%;
+  
+  
+}
+
+
+#skills
+{
+  margin-top: -14%;
+  width: 99.6%;
+}
+#skills h1{
+  margin-left: 40%;
+}
+
+  .navbar
+  {
+    display: none;
+  }
+
+  #menu-bar
+  {
+    display: block;
+  }
+
+
+  #hamcodechef
+  {
+    width: 30px;
+  }
+
+  #hamcodechef:hover
+  {
+    filter:invert(100%)
+    
+  }
+
+  #hamgithub:hover{
+    filter:invert(100%)
+    
+  }
+
+
+#hamhacker{
+  width: 30px;
+  
+}
+#hamhacker:hover{
+  width: 30px;
+  filter:invert(100%)
+  
+}
+
+
+.name{
+  font-size: 40px;
+  margin-left: -7%;
+}
+
+.sk2 img {
+width: 40%;
+height: 50%;
+}
+
+
+.inner h2  {
+  font-size: x-large;
+}
+
+.inner p {
+  font-size: 15px;
+  padding-left: 10px;
+  justify-content: center;
+  text-align: justify;
+  margin-top: 50px;
+}
+
+}
+
+
+
+@media only screen and (max-width:410px)
+{
+
+
+  .name{
+    font-size: 40px;
+    margin-left: -19%;
+  }
+
+
+  .inner h2  {
+    font-size: large;
+  }
+
+  .sk2 img {
+    /* border: 2px solid rgb(26, 26, 25); */
+    border-radius: 16px;
+    width: 45%;
+    image-rendering: crisp-edges;
+   
+  }
+
+
+  #skills h1
+  {
+    font-size: xx-large;
+
+  }
+  #Projects h1{
+font-size: xx-large;
+margin-left: 30%;
+  }
+}

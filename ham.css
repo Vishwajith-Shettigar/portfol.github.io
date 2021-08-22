@@ -1,0 +1,133 @@
+
+
+#menu
+{
+    /* background-color: black; */
+    width: 35px;
+    height: 30px;
+    margin: 20px 0 20px 20px;
+    cursor: pointer;
+}
+
+
+
+.bar{
+    height: 5px;
+    width: 100%;
+    background-color: rgb(212, 196, 196);
+    border-radius: 5px;
+    display: block;
+    /* margin-top: 2px; */
+    transition: 0.2s ease-in-out;
+
+}
+
+#bar1
+{
+    transform: translateY(-4px);
+}
+
+#bar3
+{
+    transform: translateY(4px);
+}
+
+
+
+.nav li a{
+    color: rgb(37, 43, 49);
+    text-decoration: none;
+    font-size: larger;
+    transition: 0.5s ;
+}
+
+.nav li a:hover{
+    font-weight: bold;
+    background-color: black;
+    border-radius: 12px;
+    padding-right: 14px;
+color: aliceblue;
+padding-left: 22px;
+padding-top: 8px;
+padding-bottom: 8px;
+}
+
+.nav li{
+    list-style: none;
+    padding: 16px 0px;
+
+}
+
+.nav{
+    margin: 10px 40px;
+    padding: 0px;
+    transition: 0.4s ease;
+    display: none;
+}
+
+.menu-bg, #menu-bar
+{
+
+    top:0;
+    left: 0;
+    position: absolute;
+}
+
+#menu-bar
+{
+    z-index: 2;
+}
+
+.menu-bg
+{
+
+    z-index: 1;
+    width: 0;
+    height: 0;
+background:radial-gradient(circle,pink,rgb(203, 80, 207));
+    transition: 0.3s ease;
+    border-radius: 50%;
+    margin: 20px 0 20px 20px;
+   
+}
+
+.Change-bg
+{
+    width: 550px;
+    height:550px ;
+   
+
+transform: translate(-50%,-10%);
+
+}
+
+.Change .bar {
+
+    background-color: rgb(13, 142, 255);
+
+}
+
+
+
+.Change  #bar1
+{
+    transform: translateY(4px) rotateZ(-45deg);
+    
+}
+
+.Change  #bar3
+{
+    transform: translateY(-6px) rotate(45deg);
+    
+}
+
+
+.Change #bar2
+{
+    opacity: 0;
+}
+
+
+.Change{
+    display: block;
+}
