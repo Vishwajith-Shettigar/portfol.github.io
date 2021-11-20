@@ -189,6 +189,18 @@ button a {
   border-radius: 22px;
   margin: 9px;
 }
+
+#jarvisimg{
+  
+ height: 225px;
+ width: 225px;
+  border-radius: 11;
+}
+#pokedeximg{
+  height: 225px;
+  width: 225px;
+}
+
 .sk img {
   border-radius: 22px;
 }
@@ -201,6 +213,8 @@ button a {
   padding: 20px;
   box-shadow: 21px 14px 19px 4px #57575754;
 }
+
+
 
 /* projects section */
 
@@ -491,6 +505,15 @@ button a {
     border-radius: 22px;
     width: 91%;
   }
+  #jarvisimg{
+  
+    border-radius: 22px;
+    width: 91%;
+   }
+   #pokedeximg{
+    border-radius: 22px;
+    width: 91%;
+   }
 
   .sk h2 {
     color: aliceblue;
@@ -617,6 +640,19 @@ margin-top: -10%;
     width: 84%;
   }
 
+  #jarvisimg{
+  
+    border-radius: 22px;
+    width: 84%;
+   }
+   #pokedeximg{
+    border-radius: 22px;
+    width: 84%;
+   }
+
+
+  
+
   .sk h2 {
     color: aliceblue;
     font-size: larger;
@@ -715,6 +751,20 @@ margin-top: -10%;
     width: 74%;
   }
 
+
+  #jarvisimg{
+  
+    border-radius: 22px;
+    width: 74%;
+   }
+   #pokedeximg{
+    border-radius: 22px;
+    width: 74%;
+   }
+
+
+
+
   .sk h2 {
     color: aliceblue;
     font-size: larger;
@@ -769,6 +819,18 @@ margin-top: -10%;
     border-radius: 16px;
     width: 45%;
   }
+
+  #jarvisimg{
+  
+    /* border: 2px solid rgb(26, 26, 25); */
+    border-radius: 16px;
+    width: 45%;
+   }
+   #pokedeximg{
+     /* border: 2px solid rgb(26, 26, 25); */
+     border-radius: 16px;
+     width: 45%;
+   }
 
 
 
